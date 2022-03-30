@@ -7,4 +7,9 @@ All I've done with ADA
     - Temas: 9
     - Practicas 1
     - Otros: 2
-    - __Lineas: ___
+    - Lineas:  4.500
+
+-__Sistemas Empotrados de Control (MINCAR)__:
+    - Practicas 3
+    - Trabajos 1
+    - Lineas : 
