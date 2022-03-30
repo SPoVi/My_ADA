@@ -1,0 +1,8 @@
+project tema7 is
+
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Main use ("main.adb", "matrices.adb", "matrices.ads", "T6E4.adb", "T7E2.adb");
+
+end tema7;
+

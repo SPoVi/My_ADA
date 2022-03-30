@@ -1,0 +1,8 @@
+project Tema2 is
+
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Main use ("Prueba.adb", "T2P2.adb", "T2P4.adb", "T2P4_Rakel.adb", "T2P5.adb", "TIP3.adb");
+
+end Tema2;
+

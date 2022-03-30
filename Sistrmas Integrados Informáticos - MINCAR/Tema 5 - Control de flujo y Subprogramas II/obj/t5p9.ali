@@ -1,0 +1,101 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U t5p9%b		t5p9.adb		bfb9131c NE OO SU IU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system.concat_9%s	s-conca9.adb		s-conca9.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-flteio.ads		20190518041256 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20190518041256 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20190518041256 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20190518041258 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tiflio.ads		20190518041256 bf196650 ada.text_io.float_io%s
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D system.ads		20190518041258 32a08138 system%s
+D s-conca9.ads		20190518041256 dc4a3424 system.concat_9%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-imgrea.ads		20190518041256 c7a851e2 system.img_real%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D t5p9.adb		20191107120358 05643569 t5p9%b
+G a e
+G c Z b b [t5p9 standard 23 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 32|17r6 17r23 18r6 18r31 19r6 19r29 20r6 20r45
+X 3 a-flteio.ads
+20K13*Float_Text_IO[12|46] 32|19w10 19r33
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[13|46] 32|18w10 18r35
+X 6 a-numeri.ads
+16K13*Numerics 32e17 32|20r10 20r49
+X 7 a-nuelfu.ads
+18K22*Elementary_Functions[8|39] 32|20w19 20r58
+X 8 a-ngelfu.ads
+52V13*Sqrt{float} 32|70s12[7|18]
+94V13*Sin{float} 32|94s14[7|18]
+103V13*Cos{float} 32|93s14[7|18]
+145V13*Arctan{float} 32|71s14[7|18]
+X 11 a-textio.ads
+57K13*Text_IO 727e16 32|17w10 17r27
+264U14*New_Line 32|39s7 45s10 60s7 87s7
+465U14*Put 32|40s7 64s7 66s7 90s7 91s7
+508U14*Put_Line 32|33s7 34s7 35s7 36s7 37s7 44s10 61s7 74s7 88s7 97s7 120s10
+. 123s10 127s10 130s12
+X 12 a-tiflio.ads
+60U14*Get 32|65s7[3|20] 67s7[3|20] 90s39[3|20] 91s37[3|20]
+X 13 a-tiinio.ads
+59U14*Get 32|41s7[4|18]
+X 32 t5p9.adb
+23U11*T5P9 23b11 135l5 135t9
+25i4 opcion{natural} 110r10 110r26 110r42 111m7 118r9
+29V13 f_menu{integer} 29b13 50l8 50t14 111s15
+30i7 op{integer} 41m11 43r10 43r22 43r34 49r14
+54U14 cart_to_polar 54b14 78l8 78t21 124s10
+57f7 x{float} 65m11 70r18 71r23 75r29
+57f10 y{float} 67m11 70r25 71r21 75r50
+57f13 m{float} 70m7 76r53
+57f17 ang{float} 71m7 77r31
+82U14 polar_to_cart 82b14 101l8 101t21 128s10
+84f7 r{float} 90m43 93r11 94r11 98r29
+84f10 ang{float} 91m41 93r18 94r18 98r50
+84f15 x{float} 93m7 99r48
+84f18 y{float} 94m7 100r29
+

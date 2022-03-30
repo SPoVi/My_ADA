@@ -1,0 +1,2 @@
+t6e7.adb:192:10: cannot use call to function "F_media" as a statement
+t6e7.adb:192:10: return value of a function call cannot be ignored

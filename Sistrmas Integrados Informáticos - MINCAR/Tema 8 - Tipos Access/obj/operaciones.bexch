@@ -1,0 +1,22 @@
+[MAPPING FILE]
+C:\Users\Usuario\AppData\Local\Temp\GNAT-TEMP-000005.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 2019
+[MAIN BASE NAME]
+operaciones
+[COMPILER PATH]
+c:\gnat\2019\bin\gcc.exe
+[COMPILER LEADING SWITCHES]
+-c
+-x
+ada
+-gnatA
+[MAIN DEPENDENCY FILE]
+E:\Cursos\2019-2020\Master INCAR\SII - Sistemas Informaticos Industriales\Practicas\Tema 8\obj\operaciones.ali
+[DEPENDENCY FILES]
+[BINDING OPTIONS]
+gnatbind_prefix=
+[PROJECT FILES]
+E:\Cursos\2019-2020\Master INCAR\SII - Sistemas Informaticos Industriales\Practicas\Tema 8\tema8.gpr
+20191205121442

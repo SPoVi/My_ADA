@@ -1,0 +1,102 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U t_05_arrayderegistros%b  t_05_arrayderegistros.adb  0e30b995 OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_io%s
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-flteio.ads		20190518041256 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tienio.ads		20190518041256 2e79c9bf ada.text_io.enumeration_io%s
+D a-tiflio.ads		20190518041256 bf196650 ada.text_io.float_io%s
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D system.ads		20190518041258 32a08138 system%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D t_05_arrayderegistros.adb  20191120090246 b705a2fc t_05_arrayderegistros%b
+G a e
+G c Z b b [t_05_arrayderegistros standard 15 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 17|10r6 10r23 11r6 11r29 12r6 12r31
+X 2 a-flteio.ads
+20K13*Float_Text_IO[8|46] 17|11w10 11r33
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 17|12w10 12r35
+X 6 a-textio.ads
+57K13*Text_IO 727e16 17|10w10 10r27
+264U14*New_Line 17|81s10 84s10 90s10
+273U14*Skip_Line 17|63s46 65s43 67s44 78s10
+465U14*Put 17|62s7 64s7 66s7 76s10 82s10
+508U14*Put_Line 17|61s7
+X 7 a-tienio.ads
+26k21*Enumeration_IO 76e31 17|48r28 51r35
+34U14 Get 17|65s7[48]
+X 9 a-tiinio.ads
+59U14*Get 17|63s7[3|18] 67s7[3|18] 77s10[3|18]
+80U14*Put 17|83s10[3|18]
+X 17 t_05_arrayderegistros.adb
+15U11*T_05_ArrayDeRegistros 15b11 109l5 109t26
+16E9 T_Mes 18e68 25r18 48r43
+16n19 Enero{16E9}
+16n26 Febrero{16E9}
+16n35 Marzo{16E9}
+16n42 Abril{16E9}
+16n49 Mayo{16E9}
+16n55 Junio{16E9}
+16n62 Julio{16E9}
+17n30 Agosto{16E9} 99r41 102r43
+17n38 Septiembre{16E9}
+17n50 Octubre{16E9}
+17n59 Noviembre{16E9}
+18n58 Diciembre{16E9}
+20I12 T_spDia{positive} 24r18
+22R9 T_rgFecha 27e17 37r24
+24i10 sp_Dia{20I12} 63m37 104m34
+25e10 Mes{16E9} 65m37
+26i10 iAño{integer} 67m37
+29E9 T_Asignatura 29e59 33r29 51r50
+29n26 Historia{29E9} 105r29
+29n36 Geografía{29E9}
+29n47 Matemáticas{29E9}
+31F12 T_fNota{float} 33r46
+33A9 T_afNotas(31F12)<29E9> 38r19
+35R9 T_rgEstudiante 39e17 43r44 59r47
+37r10 rgCumpleaños{22R9} 63r24 65r24 67r24 99m21 102m25 104m21
+38a10 afNotas{33A9} 100m21 102m57 105m21
+42i4 N{natural} 43r38
+43A9 T_argEstudiante(35R9)<integer> 46r20 72r59
+46a4 argEstudiante{43A9} 99m4 100m4 102m4 104m4 105m4
+48K12 T_Mes_IO[7|26] 49r8
+51K12 T_Asignatura_IO[7|26] 52r8
+59U14 LeerEstudiante 59b14 59<29 69l8 69t22 89s10
+59r29 rgEstudiante{35R9} 63m11 63r11 65m11 65r11 67m11 67r11
+72U14 LeerListaEstudiante 72b14 72<34 73<34 94l8 94t27
+72a34 argListaEstudiantes{43A9} 80r29 83r14 89m25 89r25
+73i34 nlong{natural} 77m14 80r20 88r19
+88i11 i{integer} 89r46
+

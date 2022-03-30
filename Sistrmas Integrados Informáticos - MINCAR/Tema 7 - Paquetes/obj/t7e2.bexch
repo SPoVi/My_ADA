@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__t7e2.o
+[PROJECT FILES]
+E:\Cursos\2019-2020\Master INCAR\SII - Sistemas Informaticos Industriales\Practicas\Tema 7\tema7.gpr
+20191128120828
+[BOUND OBJECT FILES]
+E:\Cursos\2019-2020\Master INCAR\SII - Sistemas Informaticos Industriales\Practicas\Tema 7\obj\matrices.o
+E:\Cursos\2019-2020\Master INCAR\SII - Sistemas Informaticos Industriales\Practicas\Tema 7\obj\T7E2.o
+[GENERATED SOURCE FILES]
+b__t7e2.ads
+b__t7e2.adb
+b__t7e2.ali
+[RESULTING OPTIONS]
+-LE:\Cursos\2019-2020\Master INCAR\SII - Sistemas Informaticos Industriales\Practicas\Tema 7\obj\
+-LE:\Cursos\2019-2020\Master INCAR\SII - Sistemas Informaticos Industriales\Practicas\Tema 7\obj\
+-LC:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,82 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U esbisiesto%b		esbisiesto.adb		0106347c NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+Z ada.text_io.enumeration_io%s
+Z interfaces%s		interfac.ads		interfac.ali
+Z system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+Z system.val_bool%s	s-valboo.adb		s-valboo.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tienau.ads		20190518041256 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20190518041256 2e79c9bf ada.text_io.enumeration_io%s
+D a-tienio.adb		20190518041256 c9e6b5af ada.text_io.enumeration_io%b
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D esbisiesto.adb	20191102151954 59b968b5 esbisiesto%b
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D system.ads		20190518041258 32a08138 system%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-imgboo.ads		20190518041256 f5d971eb system.img_bool%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-valboo.ads		20190518041256 5026d18b system.val_bool%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [esbisiesto standard 4 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 1r23 2r6 2r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 13|2w10 2r35
+X 7 a-textio.ads
+57K13*Text_IO 727e16 13|1w10 1r27
+465U14*Put 13|30s4 34s4
+X 9 a-tienio.ads
+26k21*Enumeration_IO 76e31 13|10r26
+52U14 Put 13|35s4[10]
+X 11 a-tiinio.ads
+59U14*Get 13|31s4[3|18]
+X 13 esbisiesto.adb
+4U11*EsBisiesto 4b11 36l5 36t15
+7i4 num{positive} 31m8 35r18
+10K12 BoolIO[9|26] 11r8
+15V13 Fbisiesto{boolean} 15b13 15>24 25l8 25t17 35s8
+15i24 num{positive} 21r13 22r11 22r33
+17b7 sol{boolean} 21m7 24r14
+

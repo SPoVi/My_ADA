@@ -1,0 +1,100 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U matrices%b		matrices.adb		9e753330 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U matrices%s		matrices.ads		d9f59015 EE NE OO PK IL
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-flteio.ads		20190518041256 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tiflio.ads		20190518041256 bf196650 ada.text_io.float_io%s
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D matrices.ads		20191128115334 d9f59015 matrices%s
+D matrices.adb		20191128115504 feb5b84c matrices%b
+D system.ads		20190518041258 32a08138 system%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [p_dimension matrices 10 14 none]
+G c Z s b [f_sumarmatriz matrices 12 13 none]
+G c Z s b [f_creamatriz matrices 14 13 none]
+G c Z s b [p_leermatriz matrices 16 14 none]
+G c Z s s [Tt_afnumerosBIP matrices 4 4 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|2r8 2r25 3r9 3r34 4r9 4r32
+X 3 a-flteio.ads
+20K13*Float_Text_IO[9|46] 15|4w13 4r36
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[10|46] 15|3w13 3r38
+X 8 a-textio.ads
+57K13*Text_IO 727e16 15|2w12 2r29
+264U14*New_Line 15|68s10
+465U14*Put 15|17s7 18s7 48s13
+508U14*Put_Line 15|63s7
+X 9 a-tiflio.ads
+60U14*Get 15|49s13[3|20]
+82U14*Put 15|66s13[3|20]
+X 10 a-tiinio.ads
+59U14*Get 15|17s46[4|18] 18s49[4|18]
+X 14 matrices.ads
+1K9*matrices 20l5 20e13 15|7b14 73l5 73t13
+4A9*T_afNumeros(float)<integer><integer> 12r30 12r46 12r90 14r57 16r31 15|23r30
+. 23r46 23r90 24r10 40r57 41r15 60r31
+10U14*P_dimension 10<26 10<42 15|14b14 19l8 19t19
+10i26 n{natural} 15|14b26 17m50
+10i42 m{natural} 15|14b42 18m53
+12V13*F_sumarMatriz{4A9} 12>27 12>43 12>59 12>71 15|23b13 36l8 36t21
+12a27 A{4A9} 15|23b27 30r20
+12a43 B{4A9} 15|23b43 30r27
+12i59 n{natural} 15|23b59 28r19
+12i71 m{natural} 15|23b71 29r22
+14V13*F_creaMatriz{4A9} 14>27 14>38 15|40b13 57l8 57t20
+14i27 n{natural} 15|40b27 46r19
+14i38 m{natural} 15|40b38 47r22
+16U14*P_leerMatriz 16>28 16>44 16>56 15|60b14 70l8 70t20
+16a28 D{4A9} 15|60b28 66r17
+16i44 a{natural} 15|60b44 64r19
+16i56 b{natural} 15|60b56 65r22
+X 15 matrices.adb
+24a7 C{14|4A9} 30m12 34r14
+28i11 i{integer} 30r14 30r22 30r29
+29i14 j{integer} 30r16 30r24 30r31
+41a7 Matriz{14|4A9} 52m13 56r14
+42f7 num{float} 49m17 52r26
+46i11 i{integer} 52r20
+47i14 j{integer} 52r22
+64i11 i{integer} 66r19
+65i14 j{integer} 66r21
+

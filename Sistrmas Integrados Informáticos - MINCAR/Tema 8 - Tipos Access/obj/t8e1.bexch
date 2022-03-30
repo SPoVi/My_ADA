@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__t8e1.o
+[PROJECT FILES]
+E:\Cursos\2019-2020\Master INCAR\SII - Sistemas Informaticos Industriales\Practicas\Tema 8\tema8.gpr
+20200131073030
+[BOUND OBJECT FILES]
+E:\Cursos\2019-2020\Master INCAR\SII - Sistemas Informaticos Industriales\Practicas\Tema 8\obj\operaciones.o
+E:\Cursos\2019-2020\Master INCAR\SII - Sistemas Informaticos Industriales\Practicas\Tema 8\obj\T8E1.o
+[GENERATED SOURCE FILES]
+b__t8e1.ads
+b__t8e1.adb
+b__t8e1.ali
+[RESULTING OPTIONS]
+-LE:\Cursos\2019-2020\Master INCAR\SII - Sistemas Informaticos Industriales\Practicas\Tema 8\obj\
+-LE:\Cursos\2019-2020\Master INCAR\SII - Sistemas Informaticos Industriales\Practicas\Tema 8\obj\
+-LC:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

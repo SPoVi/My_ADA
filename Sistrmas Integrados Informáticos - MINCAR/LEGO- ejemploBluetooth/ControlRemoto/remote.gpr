@@ -1,0 +1,20 @@
+project Remote is
+
+   for Main use ("remote.adb");
+   for Source_Dirs use (".");
+
+   package Make is
+      for Makefile use "Makefile";
+   end Make;
+
+   package Ide is
+      for Compiler_Command ("ada") use "arm-eabi-gnatmake";
+      for Gnatlist use "arm-eabi-gnatls";
+      for Gnat use "arm-eabi-gnat";
+      for Debugger_Command use "arm-eabi-gdb";
+   end Ide;
+
+   for Object_Dir use "obj";
+
+end Remote;
+

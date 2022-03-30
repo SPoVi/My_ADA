@@ -1,0 +1,2 @@
+examen2.adb:84:12: warning: variable "iUk" is never read and never assigned
+examen2.adb:85:18: warning: variable "fYk" is read but never assigned

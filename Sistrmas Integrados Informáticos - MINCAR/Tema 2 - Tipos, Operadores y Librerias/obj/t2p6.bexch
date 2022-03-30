@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__t2p6.o
+[PROJECT FILES]
+C:\Users\docenciaEIB\Documents\SII\tema2.gpr
+20191010121234
+[BOUND OBJECT FILES]
+C:\Users\docenciaEIB\Documents\SII\obj\T2P6.o
+[GENERATED SOURCE FILES]
+b__t2p6.ads
+b__t2p6.adb
+b__t2p6.ali
+[RESULTING OPTIONS]
+-LC:\Users\docenciaEIB\Documents\SII\obj\
+-LC:\Users\docenciaEIB\Documents\SII\obj\
+-LC:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

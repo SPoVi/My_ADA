@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__t4p7.o
+[PROJECT FILES]
+E:\Cursos\2019-2020\SII - Sistemas Informaticos Industriales\Practicas\Tema 4\tema4.gpr
+20191026203600
+[BOUND OBJECT FILES]
+E:\Cursos\2019-2020\SII - Sistemas Informaticos Industriales\Practicas\Tema 4\obj\T4P7.o
+[GENERATED SOURCE FILES]
+b__t4p7.ads
+b__t4p7.adb
+b__t4p7.ali
+[RESULTING OPTIONS]
+-LE:\Cursos\2019-2020\SII - Sistemas Informaticos Industriales\Practicas\Tema 4\obj\
+-LE:\Cursos\2019-2020\SII - Sistemas Informaticos Industriales\Practicas\Tema 4\obj\
+-LC:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

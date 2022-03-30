@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+-- FICHERO     : T2P4_Rakel.adb
+-- COMETIDO    : Bucles FOR anidados. Matrices.
+-- AUTOR       : Sergio Pons
+-- VERSIONES   : V1.00
+-- FECHA       : Inicio = 27-10-2019 - Final = 27-10-2019
+--------------------------------------------------------------------------------
+-- ENUNCIADO
+-- 16.  Escribe  un  programa  que,  mediante  dos  bucles  anidados,
+--      genere  en  pantalla  la siguiente figura:
+
+-- * * * * *
+-- * * * *
+-- * * *
+-- * *
+-- *
+--------------------------------------------------------------------------------

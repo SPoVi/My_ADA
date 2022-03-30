@@ -1,0 +1,118 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U t8e1%b		t8e1.adb		e19b1ade NE OO SU IU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W operaciones%s		operaciones.adb		operaciones.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-flteio.ads		20190518041256 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20190518041256 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20190518041256 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20190518041258 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tiflio.ads		20190518041256 bf196650 ada.text_io.float_io%s
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D operaciones.ads	20191212124526 49dfaf3a operaciones%s
+D system.ads		20190518041258 32a08138 system%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D t8e1.adb		20191212164244 12999391 t8e1%b
+G a e
+G c Z b b [t8e1 standard 54 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 31|47r6 47r23 48r6 48r31 49r6 49r29 51r6 51r45
+X 3 a-flteio.ads
+20K13*Float_Text_IO[12|46] 31|49w10 49r33
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[13|46] 31|48w10 48r35
+X 6 a-numeri.ads
+16K13*Numerics 32e17 31|51r10 51r49
+X 7 a-nuelfu.ads
+18K22*Elementary_Functions[8|39] 31|51w19 51r58
+X 8 a-ngelfu.ads
+52V13*Sqrt{float} 31|179r23[7|18]
+94V13*Sin{float} 31|184r23[7|18]
+X 11 a-textio.ads
+57K13*Text_IO 727e16 31|47w10 47r27
+86I12*Field{integer}
+264U14*New_Line 31|74s10 83s13 153s7 166s13 171s13 176s13 181s13 186s13
+392U14*Put 31|125s10
+465U14*Put 31|75s10 96s7 101s10 151s7
+508U14*Put_Line 31|65s10 66s10 67s10 68s10 69s10 70s10 71s10 82s13 160s13
+. 163s13 168s13 173s13 178s13 183s13
+X 12 a-tiflio.ads
+60U14*Get 31|102s10[3|20]
+82U14*Put 31|124s10[3|20]
+85i7 Aft{11|86I12} 31|124r31[3|20]
+86i7 Exp{11|86I12} 31|124r21[3|20]
+X 13 a-tiinio.ads
+59U14*Get 31|75s40[4|18] 97s7[4|18]
+X 17 operaciones.ads
+6K9*operaciones 18e16 31|50w6 50r23
+9A9*afNumeros(float)<integer> 31|91r51 94r11 112r96 121r31 134r13
+12V13*fnSumar{float} 31|174r23
+14V13*fnMultiplicar{float} 31|164r23
+16V13*fnDividir{float} 31|169r23
+X 31 t8e1.adb
+54U11*T8E1 54b11 196l5 196t9
+58V13 menu{integer} 58b13 88l8 88t12 143s17
+60i7 op{integer} 75m44 78r13 87r14
+91V13 escribirArray{17|9A9} 91b13 91<28 108l8 108t21 148s21
+91i28 n{integer} 97m11 100r19
+93f7 val{float} 102m14 103r19
+94a7 af{17|9A9} 103m10 106r14
+100i11 i{integer} 103r13
+112U14 operacion 112b14 112^24 112=85 112>107 118l8 118t17 164s13 169s13
+. 174s13 179s13 184s13
+112p24 fnAccess(float) 116r19
+112f59 inum{float}
+112a85 af{17|9A9} 116m10 116r28
+112i107 tam{integer} 115r19
+115i11 i{integer} 116r13 116r31
+121U14 mostrarArray 121b14 121>27 121>42 128l8 128t20 152s7 165s13 170s13
+. 175s13 180s13 185s13
+121a27 af{17|9A9} 124r14
+121i42 n{integer} 123r19
+123i11 i{integer} 124r17
+133i4 opcion{integer} 143m7 146r10 157r12
+134a4 aCreado{17|9A9} 148m10 152r20 164m44 164r44 165r26 169m40 169r40 170r26
+. 174m38 174r38 175r26 179m35 179r35 180r26 184m35 184r35 185r26
+135i4 tamaño{integer} 148m35 148r35 152r28 164r52 165r34 169r48 170r34 174r46
+. 175r34 179r43 180r34 184r43 185r35
+139l4 main 161r18 192l13 192e17
+
